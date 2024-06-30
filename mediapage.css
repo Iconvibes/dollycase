@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dcont{
+    background-image: linear-gradient(to left, rgba(212, 116, 172, 0.377), rgba(169, 71, 226, 0.281)), url("./dimages/house-1\ \(22\).jpg");
+    
+}
+.main{
+    margin: 3% auto;
+    width: 40%;
+    background-image: linear-gradient( 36deg, rgba(0, 255, 255, 0.288), rgba(25, 170, 170, 0.363), rgba(220, 20, 60, 0.288), rgba(255, 192, 203, 0.336), rgba(128, 0, 128, 0.315));
+    border-radius: 20px;
+    border: solid 5px gold;
+}
+.main >img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid pink 2px;
+}
+.main >ul >li{
+    list-style: none;
+    align-content: center
+}
